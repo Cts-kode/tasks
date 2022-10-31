@@ -171,3 +171,76 @@ fun main(args: Array<String>) {
         println("Несуществует треугольник")
 
 }
+ЗАДАЧА 15
+fun main(args: Array<String>) {
+   var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    var C:Int
+    if((A>2)&&(B<=3))
+        println("Верно!!!")
+    else
+        println("Неверно!")
+
+}
+ЗАДАЧА 16
+fun main(args: Array<String>) {
+   var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    var C:Int
+    if((A%2!=0)&&(B%2!=0))
+        println("Верно!!!")
+    else
+        println("Неверно!")
+
+}
+ЗАДАЧА 17
+fun main(args: Array<String>) {
+   var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    var C:Int
+    C = readLine()!!.toInt()
+    if((A>=0)&&(B>=0)&&(C>=0))
+        println("Верно!!!")
+    else
+        println("Неверно!")
+
+}
+ЗАДАЧА 18
+fun main(args: Array<String>) {
+   var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    if((A>B))
+        println("A>B" + " A=" + A)
+
+    else
+        println("B>A" + " B=" +B)
+
+
+}
+ЗАДАЧА 19
+fun main(args: Array<String>) {
+   var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    var C:Int
+    C = readLine()!!.toInt()
+    var min:Int
+    min = A
+    if (min > B)
+        min= B
+    if (min >C)
+        min = C
+
+    println(min)
+
+}
+
