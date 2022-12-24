@@ -244,3 +244,127 @@ fun main(args: Array<String>) {
 
 }
 
+
+ЗАДАЧА 20??????????????????????
+fun main(args: Array<String>) {
+    var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    if (( A != B )&&(A > B))
+        B == A
+        B == B
+
+    if (( A != B )&&(A < B))
+        A == B
+        A == A
+
+    if ( A == B )
+        A == 0
+        B == 0
+
+    println(A)
+    println(B)
+}
+ЗАДАЧА 21
+fun main(args: Array<String>) {
+    var Y = 0;
+
+    var X:Int
+    X = readLine()!!.toInt()
+    if (X>0)
+        Y = 2*X;
+    else
+        println("LOX")
+
+    println(Y)
+
+}
+ЗАДАЧА 22
+fun main(args: Array<String>) {
+    var Y:Int
+    Y = readLine()!!.toInt()
+    var X:Int
+    X = readLine()!!.toInt()
+    if ((X>0)&&(Y>0))
+        println("1/4")
+    else if((X>0)&&(Y<0))
+        println("4/4")
+    else if((X<0)&&(Y<0))
+        println("3/4")
+    else if((X<0)&&(Y>0))
+        println("2/4")
+}
+ЗАДАЧА 23
+fun main(args: Array<String>) {
+    var Y =0;
+
+    var X:Int
+    X = readLine()!!.toInt()
+    if(X <= 0)
+        Y = 6 - X;
+    println(Y)
+
+}
+ЗАДАЧА 24
+fun main(args: Array<String>) {
+    var A:Int
+    A = readLine()!!.toInt()
+    if(A == 1)
+    {
+        println("Ponedelnik")
+    }
+    else if(A == 2)
+    {
+        println("Vtornik")
+    }
+    else if(A == 3)
+    {
+        println("Sreda")
+    }
+    else if (A == 4)
+    {
+        println("Chetverg")
+    }
+    else if (A == 5)
+    {
+        println("Pytnica")
+    }
+    else if (A == 6)
+    {
+        println("Subbota")
+    }
+    else if (A == 7)
+    {
+        println("Voskresenie")
+    }
+}
+ЗАДАЧА 25
+fun main(args: Array<String>) {
+   println("Введите числа : ")
+    var A:Int
+    A = readLine()!!.toInt()
+    var B:Int
+    B = readLine()!!.toInt()
+    println("Выберите дейстиве (1 - сумма, 2 - разность, 3 - умножение, 4- деление")
+    var N:Int
+    N = readLine()!!.toInt()
+    if (N == 1)
+    {
+        println(A+B)
+    }
+    else if (N == 2)
+    {
+        println(A - B)
+    }
+    else if (N == 3)
+    {
+        println(A*B)
+    }
+    else if (N == 4)
+    {
+        println(A/B)
+    }
+
+
+}
